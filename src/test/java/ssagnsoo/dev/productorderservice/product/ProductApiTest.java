@@ -13,7 +13,6 @@ import static org.assertj.core.api.Assertions.*;
 
 public class ProductApiTest extends ApiTest {
 
-
     @Test
     void 상품등록() {
         final var request = 상품등록요청_생성();

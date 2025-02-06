@@ -10,10 +10,14 @@ import org.springframework.beans.factory.InitializingBean;
 
 import java.util.List;
 import com.google.common.base.CaseFormat;
+import org.springframework.stereotype.Component;
+
 import java.util.Set;
 import java.util.stream.Collectors;
 
+@Component
 public class DatabaseCleanup implements InitializingBean {
+
     @PersistenceContext
     private EntityManager entityManager;
 
