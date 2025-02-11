@@ -1,6 +1,6 @@
 package ssagnsoo.dev.productorderservice.product;
 
-enum DiscountPolicy {
+public enum DiscountPolicy {
     NONE,
 
 }
