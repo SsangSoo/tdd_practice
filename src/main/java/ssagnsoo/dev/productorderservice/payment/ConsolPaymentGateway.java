@@ -1,5 +1,8 @@
 package ssagnsoo.dev.productorderservice.payment;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ConsolPaymentGateway implements PaymentGateway {
 
     @Override
