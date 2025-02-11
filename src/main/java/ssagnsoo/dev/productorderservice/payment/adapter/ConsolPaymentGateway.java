@@ -1,4 +1,4 @@
-package ssagnsoo.dev.productorderservice.payment;
+package ssagnsoo.dev.productorderservice.payment.adapter;
 
 import org.springframework.stereotype.Component;
 

@@ -1,6 +1,8 @@
 package ssagnsoo.dev.productorderservice.product;
 
 import org.junit.jupiter.api.Test;
+import ssagnsoo.dev.productorderservice.product.domain.DiscountPolicy;
+import ssagnsoo.dev.productorderservice.product.domain.Product;
 
 import static org.assertj.core.api.Assertions.*;
 

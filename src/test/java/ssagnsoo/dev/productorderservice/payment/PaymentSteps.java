@@ -4,6 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
 import org.springframework.http.MediaType;
+import ssagnsoo.dev.productorderservice.payment.application.PaymentRequest;
 
 public class PaymentSteps {
     public static PaymentRequest 주문결제요청_생성() {

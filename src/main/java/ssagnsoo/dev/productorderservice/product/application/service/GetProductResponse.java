@@ -1,6 +1,7 @@
-package ssagnsoo.dev.productorderservice.product;
+package ssagnsoo.dev.productorderservice.product.application.service;
 
 import org.springframework.util.Assert;
+import ssagnsoo.dev.productorderservice.product.domain.DiscountPolicy;
 
 record GetProductResponse(
         Long id,

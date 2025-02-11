@@ -1,4 +1,4 @@
-package ssagnsoo.dev.productorderservice.product;
+package ssagnsoo.dev.productorderservice.product.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

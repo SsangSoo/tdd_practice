@@ -1,4 +1,4 @@
-package ssagnsoo.dev.productorderservice.payment;
+package ssagnsoo.dev.productorderservice.payment.application;
 
 import org.springframework.util.Assert;
 

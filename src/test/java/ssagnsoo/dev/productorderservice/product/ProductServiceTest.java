@@ -4,6 +4,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
+import ssagnsoo.dev.productorderservice.product.application.port.ProductPort;
+import ssagnsoo.dev.productorderservice.product.application.service.GetProductResponse;
+import ssagnsoo.dev.productorderservice.product.application.service.ProductService;
+import ssagnsoo.dev.productorderservice.product.application.service.UpdateProductRequest;
 
 import static org.assertj.core.api.Assertions.*;
 

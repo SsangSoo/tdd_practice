@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
 import org.springframework.http.MediaType;
-import ssagnsoo.dev.productorderservice.order.CreateOrderRequest;
+import ssagnsoo.dev.productorderservice.order.application.service.CreateOrderRequest;
 
 public class OrderSteps {
     public static ExtractableResponse<Response> 상품주문요청(final CreateOrderRequest request) {

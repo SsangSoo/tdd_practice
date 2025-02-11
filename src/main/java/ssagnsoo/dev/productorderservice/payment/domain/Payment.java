@@ -1,11 +1,11 @@
-package ssagnsoo.dev.productorderservice.payment;
+package ssagnsoo.dev.productorderservice.payment.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.util.Assert;
-import ssagnsoo.dev.productorderservice.order.Order;
+import ssagnsoo.dev.productorderservice.order.domain.Order;
 
 @Entity
 @Getter

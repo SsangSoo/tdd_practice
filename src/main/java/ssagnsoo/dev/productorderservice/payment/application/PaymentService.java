@@ -1,4 +1,4 @@
-package ssagnsoo.dev.productorderservice.payment;
+package ssagnsoo.dev.productorderservice.payment.application;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ssagnsoo.dev.productorderservice.order.Order;
+import ssagnsoo.dev.productorderservice.order.domain.Order;
+import ssagnsoo.dev.productorderservice.payment.PaymentPort;
+import ssagnsoo.dev.productorderservice.payment.domain.Payment;
 
 @RestController
 @RequestMapping("/payments")

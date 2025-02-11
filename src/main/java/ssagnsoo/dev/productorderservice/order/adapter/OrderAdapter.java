@@ -1,8 +1,10 @@
-package ssagnsoo.dev.productorderservice.order;
+package ssagnsoo.dev.productorderservice.order.adapter;
 
 import org.springframework.stereotype.Component;
-import ssagnsoo.dev.productorderservice.product.Product;
-import ssagnsoo.dev.productorderservice.product.ProductRepository;
+import ssagnsoo.dev.productorderservice.order.domain.Order;
+import ssagnsoo.dev.productorderservice.order.OrderPort;
+import ssagnsoo.dev.productorderservice.product.domain.Product;
+import ssagnsoo.dev.productorderservice.product.adapter.ProductRepository;
 
 @Component
 class OrderAdapter implements OrderPort {

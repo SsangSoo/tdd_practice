@@ -1,10 +1,10 @@
-package ssagnsoo.dev.productorderservice.payment;
+package ssagnsoo.dev.productorderservice.payment.adapter;
 
 import org.springframework.stereotype.Component;
-import ssagnsoo.dev.productorderservice.order.Order;
-import ssagnsoo.dev.productorderservice.order.OrderRepository;
-import ssagnsoo.dev.productorderservice.product.DiscountPolicy;
-import ssagnsoo.dev.productorderservice.product.Product;
+import ssagnsoo.dev.productorderservice.order.domain.Order;
+import ssagnsoo.dev.productorderservice.order.adapter.OrderRepository;
+import ssagnsoo.dev.productorderservice.payment.Payment;
+import ssagnsoo.dev.productorderservice.payment.PaymentPort;
 
 @Component
 class PaymentAdapter implements PaymentPort {

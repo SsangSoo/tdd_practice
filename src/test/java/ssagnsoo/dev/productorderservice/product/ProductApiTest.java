@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import ssagnsoo.dev.productorderservice.ApiTest;
+import ssagnsoo.dev.productorderservice.product.adapter.ProductRepository;
 
 import static org.assertj.core.api.Assertions.*;
 

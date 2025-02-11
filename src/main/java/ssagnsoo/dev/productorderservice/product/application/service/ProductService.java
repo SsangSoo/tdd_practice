@@ -1,9 +1,11 @@
-package ssagnsoo.dev.productorderservice.product;
+package ssagnsoo.dev.productorderservice.product.application.service;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
+import ssagnsoo.dev.productorderservice.product.ProductPort;
+import ssagnsoo.dev.productorderservice.product.domain.Product;
 
 @RestController
 @RequestMapping("/products")

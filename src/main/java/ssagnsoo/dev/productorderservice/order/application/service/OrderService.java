@@ -1,4 +1,4 @@
-package ssagnsoo.dev.productorderservice.order;
+package ssagnsoo.dev.productorderservice.order.application.service;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ssagnsoo.dev.productorderservice.product.Product;
+import ssagnsoo.dev.productorderservice.order.domain.Order;
+import ssagnsoo.dev.productorderservice.order.OrderPort;
+import ssagnsoo.dev.productorderservice.product.domain.Product;
 
 @RestController
 @RequestMapping("/orders")
