@@ -12,7 +12,7 @@ import ssagnsoo.dev.productorderservice.product.Product;
 @Table(name = "orders")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
-class Order {
+public class Order {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,4 +33,7 @@ class Order {
     }
 
 
+    public int getTotalPrice() {
+        return product.getDiscountPrice() * quantity;
+    }
 }
